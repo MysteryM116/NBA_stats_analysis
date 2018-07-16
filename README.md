@@ -11,3 +11,10 @@ For example, Dwayne Wade, SG for the Miami Heat, became engaged to actress Gabri
 The changes in performance are not quite clear from these simple performance stats, but there are more complicated ones and balanced all the aspects of a game. These scores were normalized bu subtracting the average performance over two months. It became clear that the blue bars (below average performance) are more frequent after the events. 
 ![screenshot from 2018-07-15 20-38-21](https://user-images.githubusercontent.com/30357662/42740135-d1e5a42a-8870-11e8-820c-ec29a2585dce.png)
 
+## Usage
+Below is a basic explanation of each pthon file
+- ```individual chart.ipynb```	contains the code for processing and generating the figures above based on indivisual player's performance
+- ```NBA_get_data.ipynb```	contains the code for scrapping the performance data from https://www.basketball-reference.com. This code takes player's name and event date, find player's main page, then find the season and download games within one months of the event date.
+- ```NBA_regression_analysis.ipynb```	contains exploration of regression analysis on the performance features. 
+- ```NBA_stat_analysis.ipynb```	contains the code for summarizing performance change in all players and all events
+- ```NBA_stats_analysis.pptx``` summary of the study in presentation format.
